@@ -5,50 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate Competition Registration Form</title>
-    <link rel="stylesheet" href="skatewebsite.css">
+    <link rel="stylesheet" href="competitionreg.css">
 </head>
 <body>
-    <h2>Skateboarding Competition Round Up Registration</h2>
+    <div id="mainbox">
+        <h2>Skateboarding Competition Registration</h2>
 
-    <form action="/skatenote">
-        <!--Identification info-->
-        <p>
-            <div>
-                <label for="firstname">Enter first name:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="First Name">
-            </div>
-            <div>
-                <label for="lastname">Enter last name:</label>
-                <input type="text" id="lastname" name="lastname" placeholder="Last Name">
-            </div>
-        </p>
-        <!--Competition type-->
-        <p>
-            <h3>Select type of competition</h3>
-            <label for="street">Street</label>
-            <input type="radio" name="type" id="street" value="street">
-            <label for="park">Park</label>
-            <input type="radio" name="type" id="park" value="park">
-            <label for="freestyle">Freestyle</label>
-            <input type="radio" name="type" id="freestyle" value="freestyle">
-            <label for="vert">Vert</label>
-            <input type="radio" name="type" id="vert" value="vert">
-        </p>
-        <!--Email-->
-        <p>
-            <label for="email">Enter email:</label>
-            <input type="text" name="email" id="email" placeholder="email">
-        </p>
-        <!--Age Group-->
-        <p>
-            <label for="age">Select Age Group</label>
-            <select name="age" id="age">
-                <option value="kid">Under 18</option>
-                <option value="adult">18+</option>
-            </select>
-        </p>
-        
-        <p><button>Register</button></p>
-    </form>
+        <form action="/skatenote">
+            <!--Identification info-->
+            <p>
+                <div>
+                    <label for="firstname"></label>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name">
+                </div>
+                <br>
+                <div>
+                    <label for="lastname"></label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                </div>
+            </p>
+            <!--Competition type-->
+            <p>
+                <h4>Select type of competition</h4>
+                <label for="street">Street</label>
+                <input type="radio" name="type" id="street" value="street">
+                <label for="park">Park</label>
+                <input type="radio" name="type" id="park" value="park">
+                <label for="freestyle">Freestyle</label>
+                <input type="radio" name="type" id="freestyle" value="freestyle">
+                <label for="vert">Vert</label>
+                <input type="radio" name="type" id="vert" value="vert">
+            </p>
+            <!--Email-->
+            <p>
+                <label for="email"></label>
+                <input type="text" name="email" id="email" placeholder="Email">
+            </p>
+            <!--Age Group-->
+            <p>
+                <label for="age">Select Age Group</label>
+                <select name="age" id="age">
+                    <option value="kid">Under 18</option>
+                    <option value="adult">18+</option>
+                </select>
+            </p>
+            
+            <p><button>Register</button></p>
+        </form>
+    </div>
 </body>
 </html>
