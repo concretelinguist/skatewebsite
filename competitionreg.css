@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+    background: linear-gradient(10deg, #FF3461, #BF5A70);
+}
+
+h2 {
+    font-size: large;
+}
+#mainbox {
+    background: white;
+    box-shadow: 12px 12px 2px 1px rgba(0,0,255, .2);
+    font-family: Muli, arial;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 2%;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: 20%;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    font-weight: bold;
+    font-family: Muli, Arial;
+    
+    
+}
+
+button {
+    border: transparent;
+    border-radius: 10%;
+    background: #50D832;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+select {
+    border: transparent;
+    font-family: Muli, Arial;
+}
