@@ -1,35 +1,17 @@
 body {
-    background: linear-gradient(to left, #22217a, #bdf047);
+    background-color: #bdf047;
     font-family: monospace, tacoma;
 }
 
-form {
-    background: linear-gradient(to left, #66659b, #E5E5F2);
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    margin-left: 450px;
-    margin-right: 450px;
-    border-radius: 10% 30% 50% 70%;
+header {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
 }
 
-h2 {
-    color: #000000;
-    background: linear-gradient(to left, #7D7CBE, #E5E5F2);
-    text-align: center;
-    padding: 20px 10px 10px 10px;
-    margin-left: 450px;
-    margin-right: 450px;
-    border-radius: 20px;
-    
+button {
+    color: white;
+    background-color: black;
+    border: 20px 30px;
 }
 
-h3 {
-    color: #000000;
-
-}
-
-p {
-    color: #000000;
-}
